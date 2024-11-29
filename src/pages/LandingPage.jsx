@@ -1,14 +1,12 @@
-import MyCard from '../components/Card.jsx'
-const cardData=['Hola','Buen día']
+import TrafficLight from '../components/TrafficLight.jsx'
+
 
 const LandingPage = () => {
 
     return (<>
-    {cardData.map((Word)=>{
-        return (
-            <MyCard cardText={Word}></MyCard>
-        )
-    })}
+   
+            <TrafficLight></TrafficLight>
+ 
     </>)
 
 }
